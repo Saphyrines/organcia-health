@@ -139,19 +139,6 @@ useEffect(() => {
       console.error(error)
       return
     }
-    setPrestataires(prev => [...prev, data![0]])
-    // reset form
-    setTitrePresta('')
-    setMailPresta('')
-    setTelPresta('')
-    setAdressePresta('')
-    setTypePrestation('')
-    setMontantPresta(undefined)
-    setPresenceJJ(false)
-    setStatutPresta('Découverte')
-    setProchainPaiement('')
-    setEcheancePaiement('')
-    toast.success('Prestataire ajouté !')
   }
 
   // Mise à jour d'un champ d'un prestataire
