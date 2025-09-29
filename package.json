@@ -6,8 +6,7 @@
     "dev": "next dev --turbopack",
     "build": "next build --turbopack",
     "start": "next start",
-    "lint": "eslint",
-    "vercel-build": "next build -p 3000"
+    "lint": "eslint"
   },
   "dependencies": {
     "@supabase/auth-helpers-nextjs": "^0.10.0",
